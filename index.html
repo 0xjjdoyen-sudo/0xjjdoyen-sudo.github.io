@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0D0E12">
+<meta name="description" content="Anegbe Josh, Web3 founder, product and growth strategist. Co-founder of LiQ and Seraph Finance, founder of Rail X and Robin Harvest, former Head of Community at Stable Money and Yellow Network.">
 <title>Anegbe Josh</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -222,8 +230,8 @@ h3 { font: 700 1.25rem/1.15 var(--font-display); letter-spacing: -0.015em; }
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 24px; padding-top: 14px; border-top: 1px solid var(--line); font: 400 0.7rem var(--font-mono); color: var(--muted); }
 
 /* Text and block reveals. Only active when the script has split the text. */
-.ln { display: block; overflow: hidden; padding-block: 0.14em; margin-block: -0.14em; }
-.li { display: block; }
+.ln { display: block; overflow: hidden; padding-block: 0.14em; margin-block: -0.14em; padding-inline-end: 3px; margin-inline-end: -3px; }
+.li { display: block; white-space: nowrap; }
 .rv .li { transform: translateY(115%); transition: transform 1.2s var(--ease); transition-delay: calc(var(--dl, 0s) + var(--n, 0) * 90ms); }
 .rv .in > .ln > .li { transform: none; }
 .rv [data-fade] { opacity: 0; transform: translateY(14px); transition: opacity 1.2s var(--ease), transform 1.4s var(--ease); transition-delay: var(--dl, 0s); }
@@ -252,7 +260,8 @@ h3 { font: 700 1.25rem/1.15 var(--font-display); letter-spacing: -0.015em; }
   .banner img { transform: scale(1.1); }
 }
 </style>
-
+</head>
+<body>
 <div class="progress" id="progress" aria-hidden="true"></div>
 
 <div class="wrap">
@@ -827,3 +836,5 @@ h3 { font: 700 1.25rem/1.15 var(--font-display); letter-spacing: -0.015em; }
   })();
 })();
 </script>
+</body>
+</html>
